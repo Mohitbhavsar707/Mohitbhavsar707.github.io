@@ -248,6 +248,9 @@ header.sticky ul li a{
   .social-icons{
     transform: translateX(-70px);
   }
+  .content .servicesBx &.aos-animate{
+    transform: none;
+  }
 
 }
 
