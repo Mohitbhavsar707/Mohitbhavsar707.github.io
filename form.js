@@ -6,7 +6,7 @@ $(document).ready(function() {
 
     var email = $('.email').val()
     var subject= $('.subject').val()
-    var email = $('.message').val()
+    var message = $('.message').val()
     var statusElm = $('.status').val()
     statusElm.empty()
 
