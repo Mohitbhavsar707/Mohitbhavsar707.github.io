@@ -2,7 +2,7 @@
 
 
 html{
-  max-width: 100%;
+  width: 100%;
   overflow-x: hidden;
 }
 *
@@ -248,8 +248,9 @@ header.sticky ul li a{
   .social-icons{
     transform: translateX(-70px);
   }
-  .content .servicesBx &.aos-animate{
+  .content .servicesBx .animation{
     transform: none;
+    transition: none;
   }
 
 }
