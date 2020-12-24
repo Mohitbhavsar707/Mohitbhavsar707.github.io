@@ -2,7 +2,7 @@
 
 
 html{
-  width: 100%;
+  max-width: 100%;
   overflow-x: hidden;
 }
 *
@@ -125,7 +125,7 @@ header .logo{
 }
 
 header .logo:hover{
-transform: rotate(360deg);
+/* transform: rotate(360deg); */
 transition: .9s;
 
 }
@@ -154,6 +154,11 @@ header.sticky ul li a{
   color: #111;
 }
 
+.copright{
+  padding-top: 20px;
+  text-align: center;
+  font-size: 14px;
+}
 @media screen and (max-width: 991px){
   header,
   header.sticky{
@@ -247,10 +252,6 @@ header.sticky ul li a{
   }
   .social-icons{
     transform: translateX(-70px);
-  }
-  .content .servicesBx .animation{
-    transform: none;
-    transition: none;
   }
 
 }
@@ -476,6 +477,12 @@ img{
   transform: translateX(-20%);
   }
 }
+
+@media screen and (max-width: 500px) {
+  .social-icons{
+    width: max-content;
+    }
+
 
 .formBx form textarea
 {
