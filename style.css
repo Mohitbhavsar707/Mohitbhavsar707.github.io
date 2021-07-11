@@ -381,11 +381,77 @@ img{
 
 }
 
-.btn-group .button:hover {
+/* .btn-group .button:hover {
   transition-duration: 0.4s;
   background: #646464;
   color: white;
+} */
+
+.btn-group .button:hover{
+  transition-duration: 0.4s;
+  padding: 150px 0px;
+  display:block;
+  color: white;
+  font-weight: 400;
 }
+
+#AVImage:hover{ 
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(Images/visualizerCover.PNG);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#FImage:hover{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(Images/fireworksCoverr.PNG);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+#TGImage:hover{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(Images/tictactoeCover.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#TTImage:hover{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(Images/typingtestCover.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#APImage:hover{
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(Images/roombaCover.PNG );
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#CXImage:hover{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(Images/cloudXploreCover.jpg );
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
+#GImage:hover{
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(Images/greenSearchCover.PNG );
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#NImage:hover{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(Images/natrifyCover.PNG );
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
 
 .awardss{
   background: #111;
