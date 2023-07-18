@@ -18,7 +18,7 @@
     <a href="#" class="logo">Mohit</a>
     <div class="toggle" onclick="toggleMenu();"></div>
     <ul class="menu">
-      <li><a href="#home" onclick="toggleMenu();" >Home</a></li>
+      <li><a href="#home" onclick="toggleMenu();">Home</a></li>
       <li><a href="#about" onclick="toggleMenu();">About</a></li>
       <li><a href="#experiences" onclick="toggleMenu();">Experiences</a></li>
       <li><a href="#projects" onclick="toggleMenu();">Projects</a></li>
@@ -29,7 +29,7 @@
   <section class="banner" id="home">
     <div class="textBx">
       <h2><code>Hello World,</code> I am <br><span> Mohit Bhavsar.</span></h2>
-        <h3><span class="type"></span></h3>
+      <h3><span class="type"></span></h3>
       <a href="#about" class="btn">About Me</a>
     </div>
   </section>
@@ -38,242 +38,269 @@
   <script src="typed.js"></script>
 
   <script>
-  function animate(){
-    var typed = new Typed('.type', {
+    function animate() {
+      var typed = new Typed('.type', {
         strings: [
           "",
           "Systems Design Engineering Student"
-      ],
-    startDelay: 1000,
-    typeSpeed: 80,
-    backSpeed: 80,
-    backDelay: 1000,
-    loop: 3,
+        ],
+        startDelay: 1000,
+        typeSpeed: 80,
+        backSpeed: 80,
+        backDelay: 1000,
+        loop: 3,
 
-    });
-  }
-  animate();
+      });
+    }
+    animate();
   </script>
 
 
   <section class="about" id="about">
-    <div data-aos="fade-up"
-    data-aos-duration="3000"
-    data-aos-mirror="true">
-    <div class="heading">
-      <h2>About Me</h2>
-    </div>
-    <div class="content">
-      <div class="contentBx w50">
-        <h3>Hey there!</h3>
-        <p>
-          My name is Mohit Bhavsar, I am a student studying <b>Systems Design Engineering at the University of Waterloo</b> and am enthusiastic about software, systems, and frontend development! I am passionate about all things tech and would love to collaborate with developers, designers, and product managers to create meaningful and impactful projects. 
-          <br><br> Interested in Frontend Development, Product Management, and Software Engineering and would love to collaborate with like-minded technology driven individuals.
-        
-          <br><br>
-          <u><b>Skill Stack</b></u>  <br><br>
-        
-          <b>Languages:</b> C/C++, C#, Java, Python, JavaScript, HTML/CSS
-          <b>Technologies & Frameworks:</b> React, Vanilla JS, Flask, SolidWorks, Figma, Git, Bootstrap, Arduino, Fusion 360
-        </p>
+    <div data-aos="fade-up" data-aos-duration="3000" data-aos-mirror="true">
+      <div class="heading">
+        <h2>About Me</h2>
       </div>
-      <div class="w50">
-        <img src="Images/waterloo.jpeg" class="img">
+      <div class="content">
+        <div class="contentBx w50">
+          <h3>Hey there!</h3>
+          <p>
+            My name is Mohit Bhavsar, I am a student studying <b>Systems Design Engineering at the University of
+              Waterloo</b> and am enthusiastic about software, systems, and frontend development! I am passionate about
+            all things tech and would love to collaborate with developers, designers, and product managers to create
+            meaningful and impactful projects.
+            <br><br> Interested in Frontend Development, Product Management, and Software Engineering and would love to
+            collaborate with like-minded technology driven individuals.
+
+            <br><br>
+            <u><b>Skill Stack</b></u> <br><br>
+
+            <b>Languages:</b> C/C++, C#, Java, Python, JavaScript, HTML/CSS
+            <b>Technologies & Frameworks:</b> React, Vanilla JS, Flask, SolidWorks, Figma, Git, Bootstrap, Arduino,
+            Fusion 360
+          </p>
+        </div>
+        <div class="w50">
+          <img src="Images/waterloo.jpeg" class="img">
+        </div>
       </div>
     </div>
-  </div>
   </section>
 
   <section class="services" id="experiences">
-    <div data-aos="fade-up"
-    data-aos-duration="2000"
-    data-aos-mirror="true">
->
-    <div class="heading">
-      <h2>My Experiences</h2>
-      <p style="color: white;">Here are some of my previous work experiences</p>
+    <div data-aos="fade-up" data-aos-duration="2000" data-aos-mirror="true">
+      >
+      <div class="heading">
+        <h2>My Experiences</h2>
+        <p style="color: white;">Here are some of my previous work experiences</p>
+      </div>
     </div>
-  </div>
 
-  <div data-aos="fade-up"
-  data-aos-duration="3000"
-  data-aos-mirror="true"
-  data-aos-delay="300">
-    <div class="content">
+    <div data-aos="fade-up" data-aos-duration="3000" data-aos-mirror="true" data-aos-delay="300">
+      <div class="content">
 
-      <div class="servicesBx">
-        <div class="ev">
-          <img style="width: 250px; height: 250px; padding-top: 0px;" src="Images/studicaLogo.png" alt="Studica Logo">
-          <h2 style="padding-top: 90px;">Studica Limited </h2>
-          <p>Full Stack Developer</p>
+        <div class="servicesBx">
+          <div class="ev">
+            <img style="width: 250px; height: 250px; padding-top: 0px;" src="Images/studicaLogo.png" alt="Studica Logo">
+            <h2 style="padding-top: 90px;">Studica Limited </h2>
+            <p>Full Stack Developer</p>
+          </div>
         </div>
-      </div>
 
-      <div class="servicesBx">
-        <div class="spark">
-          <img src="Images/spark image.png" alt="Spark Image">
-          <h2 style="padding-top: 84px;">SPARK </h2>
-          <p>Project Co-Manager</p>
+        <div class="servicesBx">
+          <div class="ev">
+            <img style="width: 250px; height: 250px; padding-top: 0px;" src="Images/wargLogo.png" alt="Studica Logo">
+            <h2 style="padding-top: 90px;">Waterloo Aerial Robotics Group </h2>
+            <p>Computer Vision Engineer</p>
+          </div>
         </div>
-      </div>
 
-      <div class="servicesBx">
-        <div class="ev">
-          <img style="width: 190px; height: 250px; padding-top: 0px;" src="Images/VolunteeringpeelLogo.png" alt="EV Team Image">
-          <h2 style="padding-top: 90px;">Volunteering Peel </h2>
-          <p>Frontend Software Developer</p>
+        <div class="servicesBx">
+          <div class="ev">
+            <img style="width: 250px; height: 250px; padding-top: 0px;" src="Images/uwuxLogo.jpeg" alt="Studica Logo">
+            <h2 style="padding-top: 90px;">UW/UX </h2>
+            <p>Frontend Developer</p>
+          </div>
         </div>
-      </div>
 
-      <div class="servicesBx">
-        <img style="width: 250px; height: 300px; padding-top: 50px;" src="Images/YouthCulture-logo.png" alt="Sparkinstem Image">
-        <h2>Youth Culture Incorporated</h2>
-        <p>UX/UI Developer</p>
-      </div>
+        <div class="servicesBx">
+          <div class="spark">
+            <img src="Images/spark image.png" alt="Spark Image">
+            <h2 style="padding-top: 84px;">SPARK </h2>
+            <p>Project Co-Manager</p>
+          </div>
+        </div>
 
-      <div class="servicesBx">
-        <div class="deca">
-        <img style="width: 400px; height: 250px; padding: 20px 50px;" src="Images/decaLogo.PNG" alt="Deca Image">
-        <h2 style="padding-top: 80px;">DECA</h2>
-        <p>Marketing Lead Instructor</p>
-      </div>
-      </div>
+        <div class="servicesBx">
+          <div class="ev">
+            <img style="width: 190px; height: 250px; padding-top: 0px;" src="Images/volunteeringPeelLogo.png"
+              alt="VP Team Image">
+            <h2 style="padding-top: 90px;">Volunteering Peel </h2>
+            <p>Frontend Software Developer</p>
+          </div>
+        </div>
 
+
+        <div class="servicesBx">
+          <div class="deca">
+            <img style="width: 400px; height: 250px; padding: 20px 50px;" src="Images/decaLogo.PNG" alt="Deca Image">
+            <h2 style="padding-top: 80px;">DECA</h2>
+            <p>Marketing Lead Instructor</p>
+          </div>
+        </div>
+        <!-- 
       <div class="servicesBx">
         <div class="cw">
           <img src="Images/cwLogo.png" alt="CW Image">
           <h2 style="padding-top: 100px;">CW Academy</h2>
           <p>Virtual Service Manager</p>
         </div>
-      </div>
-
+      </div> -->
+        <!-- 
       <div class="servicesBx">
         <div class="hsyc">
           <img src="Images/hsycsLog2.png" alt="HSYC Image">
           <h2 style="padding-top: 150px;">Hindu Sabha Youth Council</h2>
           <p>Head of Marketing</p>
         </div>
+      </div> -->
       </div>
     </div>
-  </div>
   </section>
 
   <section class="work" id="projects">
-    <div data-aos="fade-up"
-    data-aos-duration="2000"
-    data-aos-mirror="true">
-    <div class="heading">
-      <h2 style="margin-top: 80px; margin-bottom: 50px;">My Latest Projects</h2>
-    </div>
-    <div class="btn-group">
-      <a href="https://github.com/Mohitbhavsar707/3DAudioVisualizer" id="AVImage" class="button">3D Audio Visualizer <b>(Processing)</b></a>
-      <a href="https://github.com/Mohitbhavsar707/FireworksDisplay" id="FImage"class = "button"> Fireworks Display <b>(Processing)</b></a>
-      <a href="https://github.com/Mohitbhavsar707/Learning-Projects" id="TGImage" class="button">TicTacToe Game <b>(Java)</b></a>
-      <a href="https://github.com/Mohitbhavsar707/Learning-Projects" id="TTImage" class="button"> Typing Test <b>(Java)</b></a>
-      <a href="https://github.com/Mohitbhavsar707/Arduino_Roomba" id="APImage" class="button"> Arduino Programming Roomba <b>(C++)</b></a>
-      <a href="https://github.com/Mohitbhavsar707/Cloud-Xplore" id="CXImage" class="button"> Cloud Xplore <b>(HTML,CSS, JS)</b></a>
-      <a href="https://devpost.com/software/greensearch" id="GImage" class="button">GreenSearch <b>(Hackathon)</b></a>
-      <a href="https://devpost.com/software/natrify" id="NImage" class="button">Natrify <b>(Hackathon)</b> </a>
-      
-    </div>
-    <div class="heading">
-      <a style="margin-top: 100px;" href="https://github.com/Mohitbhavsar707?tab=repositories" class="btn">View More</a>
-    </div>
+    <div data-aos="fade-up" data-aos-duration="2000" data-aos-mirror="true">
+      <div class="heading">
+        <h2 style="margin-top: 80px; margin-bottom: 50px;">My Latest Projects</h2>
+      </div>
+      <div class="btn-group">
+        <a href="https://github.com/Mohitbhavsar707/3DAudioVisualizer" id="AVImage" class="button">3D Audio Visualizer
+          <b>(Processing)</b></a>
+        <a href="https://github.com/Mohitbhavsar707/FireworksDisplay" id="FImage" class="button"> Fireworks Display
+          <b>(Processing)</b></a>
+        <a href="https://github.com/Mohitbhavsar707/Learning-Projects" id="TGImage" class="button">TicTacToe Game
+          <b>(Java)</b></a>
+        <a href="https://github.com/Mohitbhavsar707/Learning-Projects" id="TTImage" class="button"> Typing Test
+          <b>(Java)</b></a>
+        <a href="https://github.com/Mohitbhavsar707/Arduino_Roomba" id="APImage" class="button"> Arduino Programming
+          Roomba <b>(C++)</b></a>
+        <a href="https://github.com/Mohitbhavsar707/Cloud-Xplore" id="CXImage" class="button"> Cloud Xplore
+          <b>(HTML,CSS, JS)</b></a>
+        <a href="https://devpost.com/software/greensearch" id="GImage" class="button">GreenSearch <b>(Hackathon)</b></a>
+        <a href="https://devpost.com/software/natrify" id="NImage" class="button">Natrify <b>(Hackathon)</b> </a>
+
+      </div>
+      <div class="heading">
+        <a style="margin-top: 100px;" href="https://github.com/Mohitbhavsar707?tab=repositories" class="btn">View
+          More</a>
+      </div>
     </div>
   </section>
 
-  <section class="awardss"id="credentials">
-    <div data-aos="fade-up"
-     data-aos-duration="3000"
-     data-aos-mirror="true">
-    <div class="heading">
-      <h2>Credentials</h2>
-    </div>
-    <a id="awards">
-      <achievements>
-        <div class="certi-view">
-          <div class="certi">
-            <img src="CertificatesPictures/JavaPic.jpg">
-            <div class="cert-sub">Java Essential Training</div>
+  <section class="awardss" id="credentials">
+    <div data-aos="fade-up" data-aos-duration="3000" data-aos-mirror="true">
+      <div class="heading">
+        <h2>Credentials</h2>
+      </div>
+      <a id="awards">
+        <achievements>
+          <div class="certi-view">
+            <div class="certi">
+              <img src="CertificatesPictures/JavaPic.jpg">
+              <div class="cert-sub">Java Essential Training</div>
+            </div>
+            <div class="certi">
+              <img src="CertificatesPictures/PythonPic.jpg">
+              <div class="cert-sub">Python Essential Training</div>
+            </div>
+            <div class="certi">
+              <img src="/CertificatesPictures/AndroidDevelopmentPic.jpg">
+              <div class="cert-sub">Android Development Training</div>
+            </div>
+            <div class="certi">
+              <img src="/CertificatesPictures/ArtificialIntelligencePic.jpg">
+              <div class="cert-sub">Artifical Intelligence Training</div>
+            </div>
+            <div class="certi">
+              <img src="/CertificatesPictures/JavaScriptPic.jpg">
+              <div class="cert-sub">JavaScript Essential Training</div>
+            </div>
+            <div class="certi">
+              <img src="/CertificatesPictures/CloudComputingPic.jpg">
+              <div class="cert-sub">Cloud Computing Essential Training</div>
+            </div>
           </div>
-          <div class="certi">
-            <img src="CertificatesPictures/PythonPic.jpg">
-            <div class="cert-sub">Python Essential Training</div>
-          </div>
-          <div class="certi">
-            <img src="/CertificatesPictures/AndroidDevelopmentPic.jpg">
-            <div class="cert-sub">Android Development Training</div>
-          </div>
-          <div class="certi">
-            <img src="/CertificatesPictures/ArtificialIntelligencePic.jpg">
-            <div class="cert-sub">Artifical Intelligence Training</div>
-          </div>
-          <div class="certi">
-            <img src="/CertificatesPictures/JavaScriptPic.jpg">
-            <div class="cert-sub">JavaScript Essential Training</div>
-          </div>
-          <div class="certi">
-            <img src="/CertificatesPictures/CloudComputingPic.jpg">
-            <div class="cert-sub">Cloud Computing Essential Training</div>
-          </div>
-        </div>
-      </achievements>
-    </a>
+        </achievements>
+      </a>
     </div>
   </section>
 
   <section class="contact" id="contact">
-    <div data-aos="fade-up"
-     data-aos-duration="2000"
-     data-aos-mirror="true"
->
-    <div class="heading">
-      <h2>Contact Me</h2>
-      <p>Feel free to reach out and connect anytime</p>
-    <div class="formBx">
-      <form action="https://formspree.io/mohitbhavsar707@gmail.com" method="POST">
-        <h3>Message</h3>
-        <input type="text" name="firstname" class = "subject" placeholder="Full Name">
-        <input type="text" name="lastname" class="subject"placeholder="Last Name">
-        <input type="email" name="email" class="email"placeholder="Email">
-        <textarea placeholder="Your Message" class="message"></textarea>
-        <div class="status">
+    <div data-aos="fade-up" data-aos-duration="2000" data-aos-mirror="true">
+      <div class="heading">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out and connect anytime</p>
+        <div class="formBx">
+          <form action="https://formspree.io/mohitbhavsar707@gmail.com" method="POST">
+            <h3>Message</h3>
+            <input type="text" name="firstname" class="subject" placeholder="Full Name">
+            <input type="text" name="lastname" class="subject" placeholder="Last Name">
+            <input type="email" name="email" class="email" placeholder="Email">
+            <textarea placeholder="Your Message" class="message"></textarea>
+            <div class="status">
+            </div>
+            <input type="submit" name="submitButton" class="submit" value="Send">
+          </form>
         </div>
-        <input type="submit" name="submitButton" class="submit" value="Send">
-      </form>
+      </div>
     </div>
-  </div>
-  </div>
   </section>
 
-<div class="social-icons">
-                        <a href="mailto:mohitbhavsar707@gmail.c" target="_blank" style="text-decoration: none;">
-                            <svg width="45" viewBox="0 0 184 184" >
-                                <path xmlns="http://www.w3.org/2000/svg" fill="#111" d="M160.746,24.61H23.254C10.432,24.61,0,35.042,0,47.864v88.271c0,12.822,10.432,23.254,23.254,23.254 h137.492c12.822,0,23.254-10.432,23.254-23.254V47.864C184,35.042,173.568,24.61,160.746,24.61z M157.113,39.61L92,89.909 L26.887,39.61H157.113z M160.746,144.39H23.254c-4.551,0-8.254-3.703-8.254-8.254V49.382l72.415,55.94 c1.35,1.043,2.968,1.564,4.585,1.564s3.235-0.521,4.585-1.564L169,49.382v86.753C169,140.687,165.297,144.39,160.746,144.39z"/>
-                            </svg>
-                        </a>
-                        <a href="https://www.linkedin.com/in/mohit-bhavsar-6490b51ab/" target="_blank" style="text-decoration: none;">
-                            <svg width="40" viewBox="0 0 448 512" >
-                                <path xmlns="http://www.w3.org/2000/svg" fill="#111" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/>
-                            </svg>
-                        </a>
-                        <a href="https://github.com/Mohitbhavsar707" target="_blank" style="text-decoration: none;">
-                            <svg width="42" viewBox="0 0 510 512" >
-                                <path xmlns="http://www.w3.org/2000/svg" fill="#111" d="M255.968,5.329C114.624,5.329,0,120.401,0,262.353c0,113.536,73.344,209.856,175.104,243.872 c12.8,2.368,17.472-5.568,17.472-12.384c0-6.112-0.224-22.272-0.352-43.712c-71.2,15.52-86.24-34.464-86.24-34.464 c-11.616-29.696-28.416-37.6-28.416-37.6c-23.264-15.936,1.728-15.616,1.728-15.616c25.696,1.824,39.2,26.496,39.2,26.496 c22.848,39.264,59.936,27.936,74.528,21.344c2.304-16.608,8.928-27.936,16.256-34.368 c-56.832-6.496-116.608-28.544-116.608-127.008c0-28.064,9.984-51.008,26.368-68.992c-2.656-6.496-11.424-32.64,2.496-68 c0,0,21.504-6.912,70.4,26.336c20.416-5.696,42.304-8.544,64.096-8.64c21.728,0.128,43.648,2.944,64.096,8.672 c48.864-33.248,70.336-26.336,70.336-26.336c13.952,35.392,5.184,61.504,2.56,68c16.416,17.984,26.304,40.928,26.304,68.992 c0,98.72-59.84,120.448-116.864,126.816c9.184,7.936,17.376,23.616,17.376,47.584c0,34.368-0.32,62.08-0.32,70.496 c0,6.88,4.608,14.88,17.6,12.352C438.72,472.145,512,375.857,512,262.353C512,120.401,397.376,5.329,255.968,5.329z"/>
-                            </svg>
-                        </a>
-                        <a href="https://www.instagram.com/mohit._.707/" target="_blank" style="text-decoration: none;">
-                             <svg class="instagram" fill="#111" height="45" viewBox="0 0 24 24" width="45" xmlns="http://www.w3.org/2000/svg"><path d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z" /></svg>
-                        </a>
-                    </div>
+  <div class="social-icons">
+    <div> 
+    <a href="mailto:mohitbhavsar707@gmail.c" target="_blank" style="text-decoration: none;">
+      <svg width="45" viewBox="0 0 184 184">
+        <path id="email" xmlns="http://www.w3.org/2000/svg" fill="#111"
+          d="M160.746,24.61H23.254C10.432,24.61,0,35.042,0,47.864v88.271c0,12.822,10.432,23.254,23.254,23.254 h137.492c12.822,0,23.254-10.432,23.254-23.254V47.864C184,35.042,173.568,24.61,160.746,24.61z M157.113,39.61L92,89.909 L26.887,39.61H157.113z M160.746,144.39H23.254c-4.551,0-8.254-3.703-8.254-8.254V49.382l72.415,55.94 c1.35,1.043,2.968,1.564,4.585,1.564s3.235-0.521,4.585-1.564L169,49.382v86.753C169,140.687,165.297,144.39,160.746,144.39z" />
+      </svg>
+    </a>
+  </div>
+
+  <div> 
+    <a href="https://www.linkedin.com/in/mohit-bhavsar-6490b51ab/" target="_blank" style="text-decoration: none;">
+      <svg  width="40" viewBox="0 0 448 512">
+        <path id="linkedin" xmlns="http://www.w3.org/2000/svg" fill="#111"
+          d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+      </svg>
+    </a>
+  </div>
+
+  <div>
+    <a href="https://github.com/Mohitbhavsar707" target="_blank" style="text-decoration: none;">
+      <svg  width="42" viewBox="0 0 510 512">
+        <path id="github" xmlns="http://www.w3.org/2000/svg" fill="#111"
+          d="M255.968,5.329C114.624,5.329,0,120.401,0,262.353c0,113.536,73.344,209.856,175.104,243.872 c12.8,2.368,17.472-5.568,17.472-12.384c0-6.112-0.224-22.272-0.352-43.712c-71.2,15.52-86.24-34.464-86.24-34.464 c-11.616-29.696-28.416-37.6-28.416-37.6c-23.264-15.936,1.728-15.616,1.728-15.616c25.696,1.824,39.2,26.496,39.2,26.496 c22.848,39.264,59.936,27.936,74.528,21.344c2.304-16.608,8.928-27.936,16.256-34.368 c-56.832-6.496-116.608-28.544-116.608-127.008c0-28.064,9.984-51.008,26.368-68.992c-2.656-6.496-11.424-32.64,2.496-68 c0,0,21.504-6.912,70.4,26.336c20.416-5.696,42.304-8.544,64.096-8.64c21.728,0.128,43.648,2.944,64.096,8.672 c48.864-33.248,70.336-26.336,70.336-26.336c13.952,35.392,5.184,61.504,2.56,68c16.416,17.984,26.304,40.928,26.304,68.992 c0,98.72-59.84,120.448-116.864,126.816c9.184,7.936,17.376,23.616,17.376,47.584c0,34.368-0.32,62.08-0.32,70.496 c0,6.88,4.608,14.88,17.6,12.352C438.72,472.145,512,375.857,512,262.353C512,120.401,397.376,5.329,255.968,5.329z" />
+      </svg>
+    </a>
+  </div>
+
+  <div>
+    <a href="https://www.instagram.com/mohit._.707/" target="_blank" style="text-decoration: none;">
+      <svg  class="instagram" fill="#111" height="45" viewBox="0 0 24 24" width="45" xmlns="http://www.w3.org/2000/svg">
+        <path id="instagram"
+          d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z" />
+      </svg>
+    </a>
+  </div>
+  </div>
 
   <script type="text/javascript">
-    window.addEventListener('scroll', function() {
+    window.addEventListener('scroll', function () {
       var header = document.querySelector('header');
       header.classList.toggle('sticky', window.scrollY > 0);
     });
 
-    function toggleMenu(){
+    function toggleMenu() {
       var menuToggle = document.querySelector('.toggle');
       var menu = document.querySelector('.menu');
       menuToggle.classList.toggle('active')
@@ -283,13 +310,14 @@
   </script>
 
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-   <script>
-     AOS.init();
-   </script>
+  <script>
+    AOS.init();
+  </script>
 
-   <div class="copright">
-     <footer>&copy; Copyright 2023 Mohit Bhavsar</footer>
-   </div>
+  <div class="copright">
+    <footer>&copy; Copyright 2023 Mohit Bhavsar</footer>
+  </div>
 
 </body>
+
 </html>

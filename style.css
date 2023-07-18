@@ -496,11 +496,22 @@ img{
   background: #222;
   color: #fff;
   resize: none;
+  cursor: pointer;
+}
+
+.formBx form input:hover
+{
+
+  background: #363636;
 }
 
 .social-icons {
-    vertical-align: center;
-    margin-left: 39%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+    /* vertical-align: center; */
+    /* margin-left: 39%; */
 }
 
 
@@ -521,21 +532,23 @@ img{
 .social-icons a:nth-child(1) svg {
     margin-left: 0;
 }
-
-.social-icons a:nth-child(1) svg:hover path {
-    fill: red;
+ 
+.social-icons a:nth-child(1) svg:hover #email {
+  fill: rgb(203, 15, 15);
 }
 
-.social-icons a:nth-child(2) svg:hover path {
-    fill: #0072b1;
+.social-icons a:nth-child(1) svg:hover #linkedin {
+  fill: #0072b1;
 }
 
-.social-icons a:nth-child(3) svg:hover path {
-    fill: #431c53;
+.social-icons a:nth-child(1) svg:hover #github {
+  fill: #431c53;
+
 }
 
-.social-icons a:nth-child(4) svg:hover path {
-    fill: #DD2A7B;
+.social-icons a:nth-child(1) svg:hover #instagram {
+  fill: #DD2A7B;
+
 }
 
 
